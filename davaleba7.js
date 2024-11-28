@@ -25,11 +25,11 @@ let person = {
 }
 console.log(person.fistname, person.lastname)
 
- //დაბეჭდეთ მეოთხე დავალებაში გამოცხადებული პერსონის თითოეული property value 
+//დაბეჭდეთ მეოთხე დავალებაში გამოცხადებული პერსონის თითოეული property value 
 for (let key in person)
     console.log(key, ":", person[key])
 
- //დაწერეთ მასივი fruits ელემენტებით ["Apple", "Banana", "Orange"]; დაბეჭდეთ მასივის თითოეული წევრი.
+//დაწერეთ მასივი fruits ელემენტებით ["Apple", "Banana", "Orange"]; დაბეჭდეთ მასივის თითოეული წევრი.
 
 
 let fruits = ["apple", "Banana", "Orange"]
@@ -42,9 +42,11 @@ fruits.unshift("Grapes")
 fruits.push("Pineapples")
 console.log(fruits)
 
-//დაბეჭდეთ 1 დან 34 მდე რიცხვების ჯამი/
 
-sum=sum+1
-for (x=1; x<34; sum)
+//დაბეჭდეთ 1 დან 34 მდე რიცხვების ჯამი
 
-    console.log(sum)
+sum = 0
+for (m = 1; m <= 33; m++) { sum = sum + m }
+
+console.log(sum)
+
